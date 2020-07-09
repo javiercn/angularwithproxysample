@@ -1,0 +1,26 @@
+{
+  "/weatherforecast": {
+    "target": "https://localhost:44340",
+      "secure": false
+ },
+ "/_configuration/*": {
+   "target": "https://localhost:44340",
+   "secure": false
+ },
+ "/.well-known/*": {
+   "target": "https://localhost:44340",
+   "secure": false
+ },
+ "/Identity/*": {
+   "target": "https://localhost:44340",
+   "secure": false
+ },
+ "/connect/*": {
+   "target": "https://localhost:44340",
+   "secure": false
+ },
+ "/ApplyDatabaseMigrations": {
+   "target": "https://localhost:44340",
+   "secure": false
+ }
+}
